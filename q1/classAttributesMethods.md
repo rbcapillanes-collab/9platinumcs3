@@ -32,6 +32,13 @@ No major changes were needed from my original design.
 
 ## Analysis
 ### Why did you make your chosen attribute private?
+ANS: So that when used, it cant be incorrectly changed since incorrect information may cause harm.
+
 ### Which method changes the state of your object?
+ANS: IsClosed(Status: Bol)
+
 ### How did your two objects demonstrate that instances are independent?
-### What is the difference between your class diagram and your object diagram?
+ANS: When I changed the IsClosed of Object 1, Object 2 didnt change at all. 
+
+### What is the difference between your class diagram and your object diagram?|
+ANS: The class diagram is simply just the blueprint and is one singular element, while the object diagram has 2 objects made from the singular-blueprint class diagram.
