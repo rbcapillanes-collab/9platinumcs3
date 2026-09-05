@@ -23,7 +23,8 @@ The CriminalCase class represents an individual criminal court case within a leg
 | getCaseSummary() | Returns a detailed summary including court decisions, facts, and key dates |
 
 ## Class Diagram
-![Class Diagram](images/classDiagram.png)
+[Class Diagram] <img width="1587" height="2245" alt="Oxblood Red Modern Apple Fruit Poster" src="https://github.com/user-attachments/assets/ecb4cf51-a185-4e79-b0d6-799d1632200e" />
+
 
 ## Design Explanation
 ### Why did you choose this class?
