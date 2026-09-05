@@ -16,16 +16,19 @@ No major changes were needed from my original design.
 | Plaintiff | String | Private  | To protect identity and to remain protected from unauthorized edit |
 
 ## Updated UML Class Diagram
-![Class Diagram](images/classDiagramSG5.png)
+[Class Diagram] <img width="1587" height="2245" alt="Oxblood Red Modern Apple Fruit Poster" src="https://github.com/user-attachments/assets/511becc2-237f-443d-96ee-30eba0e1eeed" />
+
 
 ## Python Implementation
 [View Python Source](classImplementation.py)
 
 ## Test Run
-![Test Run](images/classTestRun.png)
+[Test Run] <img width="1366" height="729" alt="OOPActTestRun" src="https://github.com/user-attachments/assets/6856a696-ffae-4a72-bfb5-d52f8a5a9f27" />
+
 
 ## Object Diagram
-![Object Diagram](images/objectDiagram.png)
+[Object Diagram] <img width="1920" height="1080" alt="object diagram" src="https://github.com/user-attachments/assets/54613a76-c1dc-457b-8a53-00505aa24964" />
+
 
 ## Analysis
 ### Why did you make your chosen attribute private?
