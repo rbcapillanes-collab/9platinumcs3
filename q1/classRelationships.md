@@ -2,19 +2,23 @@
 
 ## Previous Work
 [Part I - Classes and Objects](classObjectUML.md)
+
 [Part II - Class Attributes and Methods](classAttributesMethods.md)
 
 ## Existing Class
 Class: CriminalCases
+
 Description: The CriminalCase class represents an individual criminal court case within a legal management system. It manages essential case information and controls operational workflows based on whether the case is active or closed.
 
 ## New Related Class
 Class: DefendantVerdict
+
 Description: DefendantVerdict class shows the verdict of the defendant of the CriminalCase and a short summary of what happened during the case, which includes the facts of the case, the defendant, the defendants accused crime.
 
 ## Association
-Relationship: CriminalCases 
-Explanation:
+Relationship: CriminalCases contains entire scope of a case, while DefendantVerdict is assigned to defendant focused. 
+
+Explanation: DefendantVerdict is the defendant-focused view of the case and also is a direct continuation of the case while CriminalCases is just the broad summary of the case.
 
 ## Multiplicity
 Multiplicity:
