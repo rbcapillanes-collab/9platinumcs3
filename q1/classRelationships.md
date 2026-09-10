@@ -26,7 +26,8 @@ Multiplicity: One-to-Many
 Explanation: Because the one object from CriminalCases, CaseSummary, is the broader and more summarized term while multiple objects in DefendantVerdict explain the case in more detail. 
 
 ## UML Class Relationship Diagram
-![Class Relationship Diagram](images/classRelationshipDiagram.png)
+![Class Relationship Diagram]<img width="1414" height="2000" alt="1178" src="https://github.com/user-attachments/assets/0bdf26a3-1dc1-4d69-8ddc-4774141e34e8" />
+
 
 ## Python Implementation
 [View Python Source](classRelationships.py)
