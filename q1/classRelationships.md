@@ -21,8 +21,9 @@ Relationship: CriminalCases contains entire scope of a case, while DefendantVerd
 Explanation: DefendantVerdict is the defendant-focused view of the case and also is a direct continuation of the case while CriminalCases is just the broad summary of the case.
 
 ## Multiplicity
-Multiplicity:
-Explanation:
+Multiplicity: One-to-Many
+
+Explanation: Because the one object from CriminalCases, CaseSummary, is the broader and more summarized term while multiple objects in DefendantVerdict explain the case in more detail. 
 
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
