@@ -1,4 +1,4 @@
--class CriminalCases: 
+class CriminalCases: 
     def __init__(self, CaseName, CaseYear, IsClosed, Plaintiff):
         self.CaseName = CaseName
         self.CaseYear = CaseYear
