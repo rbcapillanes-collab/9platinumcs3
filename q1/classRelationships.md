@@ -1,4 +1,4 @@
-<img width="1414" height="2000" alt="Green and Grey Abstract Creative Portfolio Document" src="https://github.com/user-attachments/assets/93914acd-2cd8-44d6-af2f-a1c78ade17b8" /># Class Relationships: Association and Multiplicity
+# Class Relationships: Association and Multiplicity
 
 ## Previous Work
 [Part I - Classes and Objects](classObjectUML.md)
