@@ -1,4 +1,4 @@
-# Class Relationships: Association and Multiplicity
+<img width="1414" height="2000" alt="Green and Grey Abstract Creative Portfolio Document" src="https://github.com/user-attachments/assets/93914acd-2cd8-44d6-af2f-a1c78ade17b8" /># Class Relationships: Association and Multiplicity
 
 ## Previous Work
 [Part I - Classes and Objects](classObjectUML.md)
@@ -37,7 +37,9 @@ Explanation: Its because a single court starts empty and can add, track, or mana
 
 
 ## Object Relationship Diagram
-[Object Relationship Diagram]<img width="1414" height="2000" alt="1179" src="https://github.com/user-attachments/assets/a01ace17-365d-4772-a5fd-217b55f26988" />
+[Object Relationship Diagram][Uploading Green and Grey Abstract Creative Portfolio Document.png…]()
+
+
 
 
 ## Analysis
@@ -48,8 +50,11 @@ ANS: CriminalCases contains entire scope of a case, while DefendantVerdict is as
 ANS: Zero or more because a single court starts empty and can add, track, or manage zero to many cases as time passing
 
 ### How did you implement the relationship in Python?
-ANS: 
+ANS: By making an empty list inside the class CriminalCases and the using a method to append DefendantVerdict objects into it.
 
 ### Why did you store an object reference instead of copying its data?
+ANS: Because storing objects makes sure it syncs and it also saves memory.
+
+
 ### If your relationship uses many, why is a list appropriate?
 ANS: Because it can freely change sizes and content, as details are added and/or removed. It allows for easy storage and tracking.
