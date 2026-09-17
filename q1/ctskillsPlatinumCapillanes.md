@@ -1,4 +1,3 @@
-
 # Computational Thinking Exercise: "Smart Vending Machine"
 
 **Section:** Platinum  
