@@ -32,5 +32,5 @@ else:
     print(f"Your Chinese Zodiac sign is: {zodiac[zodiac_index]} ^^")
 
 ## Output
+<img width="871" height="669" alt="1228" src="https://github.com/user-attachments/assets/755c9109-716c-4bad-bc76-432910beee0f" />
 
-![Alt text](./images/Screenshot_zodiac.png)
