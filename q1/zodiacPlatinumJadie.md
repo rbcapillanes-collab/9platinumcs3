@@ -33,4 +33,5 @@ else:
 
 ## Output
 
-![Alt text](./images/Screenshot_zodiac.png)
+<img width="871" height="669" alt="1228" src="https://github.com/user-attachments/assets/4347d25e-483a-4116-b49c-8d3adcab965f" />
+
