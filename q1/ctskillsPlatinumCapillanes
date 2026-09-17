@@ -1,1 +1,97 @@
 
+# Computational Thinking Exercise: "Smart Vending Machine"
+
+**Section:** Platinum  
+**Score:** ________  
+**Name:** Capillanes, Rica B.
+**Date:** August 19, 2026  
+
+---
+
+### Scenario
+Your school installs a vending machine to provide snacks and drinks. However, students face issues related to access.
+* Sometimes the machine does not yield the correct change.
+* Decisions take tool long top select items or check availability.
+* Students queue long before getting inside the building/canteen.
+* System fails to function when multiple students wait in line / attempt access.
+
+
+─── ･ ｡ﾟ☆: *.☽ .* :☆ﾟ. ───
+### Step 1: Identify the Big Problem
+**Main Problem:**  
+The school vending machine system is inefficient. Efficiency leads to problems such as incorrect change, long wait, queues being delayed, and system lockups when multiple students try to use it. 
+
+____________________________
+
+### Step 2: Identify Three to Four Sub-Problems
+*List at least 3 to 4 relevant sub-problems:*
+1. **Problem with Change Calculation:** The machine is unable to calculate and give the exact amount of change.
+
+2. **Delays in Choosing Items and Checking Inventory:** The inventory isn't displayed properly so students take too long viewing for the available choices. 
+
+3. **Long Queues:** Long queues form outside or around the building because students have to use the machine individually without any prior order.
+
+4. **Multi-user Access Problems & Machine Congestion:** The machine system gets overloaded or fails when handling the user requests.
+
+____________________________
+
+### Step 3: Define Computational Thinking Application
+*For each sub-problem, apply CT skills:*
+
+| Sub-Problem; CT Skill; Sample Solution |
+### Step 3: Define Computational Thinking Application
+
+* **Decomposition:** Break down the vending machine operations into separate manageable modules: inventory tracking, user interface, payment/change calculation, and queue management.
+
+* **Pattern Recognition:** Identify trends in peak usage hours (e.g., recess/lunch rush) and common purchasing habits to organize high-demand items together and optimize item restocking.
+
+* **Abstraction:** Hide complex internal hardware routines from the user, presenting only a simplified screen with item availability, prices, and clear instructions.
+
+* **Algorithmic Thinking:** Develop step-by-step logic to calculate change, verify inserted cash against available vault bills, update inventory instantly, and dispense items safely.
+
+---
+
+| Sub-Problem | CT Skill Applied | Sample Solution |
+
+**1. Incorrect Change Calculation**
+Algorithmic Thinking & Abstraction: Program a precise payment logic sequence (`Change = Cash Inserted - Item Price`) that validates vault cash before dispensing, hiding complex coin sensor math behind a clear balance screen. 
+
+**2. Slow Item Selection & Stocking** 
+Pattern Recognition & Abstraction: Group top-selling items based on rush-hour patterns and simplify the UI into basic menu categories with clear live stock indicators. 
+
+**3. Queue Congestion**
+Decomposition & Algorithmic Thinking: Separate the selection process from physical retrieval by allowing remote menu browsing on mobile devices while using step-by-step queue rules at the machine. 
+
+**4. System Multi-User Congestion**
+Decomposition & Pattern Recognition: Isolate system operations into sequential processing tasks based on peak-time traffic patterns to prevent system freezing. 
+---
+
+### Step 4: Draw a Flowchart or Write Pseudocode for the Identified Sub-Problem
+*(Pseudocode for Sub-Problem 1: Change Calculation)*
+
+```text
+START
+  Input ItemCode
+  Input CashInserted
+  
+  Set ItemPrice = GetPrice(ItemCode)
+  Set StockCount = GetStock(ItemCode)
+  
+  IF StockCount <= 0 THEN
+      DISPLAY "Item Out of Stock"
+      RETURN CashInserted
+  ELSE IF CashInserted < ItemPrice THEN
+      DISPLAY "Insufficient Funds"
+      RETURN CashInserted
+  ELSE
+      Set ChangeAmount = CashInserted - ItemPrice
+      IF CheckMachineVault(ChangeAmount) == TRUE THEN
+          DispenseItem(ItemCode)
+          DispenseChange(ChangeAmount)
+          DISPLAY "Transaction Complete. Thank you!"
+      ELSE
+          DISPLAY "Exact Change Unavailable. Transaction Cancelled."
+          RETURN CashInserted
+      ENDIF
+  ENDIF
+END
