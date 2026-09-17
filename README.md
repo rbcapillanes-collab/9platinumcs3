@@ -13,7 +13,7 @@ VIEW
 [View my Computational Thinking Exercise](q1/ctskillsPlatinumCapillanes.md)
 
 ### Chinese Zodiac
-[View my Chinese Zodiac](q1/zodiacPlatinumCapillanes.md)
+[View my Chinese Zodiac](q1/ChineseZodiac.md)
 
 ### OOP Act
 [View my SG4-Understanding Classees and Objects](q1/classObjectUML.md)
