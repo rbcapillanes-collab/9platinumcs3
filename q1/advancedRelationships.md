@@ -11,15 +11,15 @@ Class 1: CriminalCases
 
 Class 2: DefendantVerdict 
 
-Problems and Limitations: The main problems with the current system design are the attribute redundancy, method duplication, inappropriate entity modeling, and lack of separation of concerns. The two classes, CriminalCases and DefendantVerdict, redundantly store CaseName as an attribute and have the same methods of retrieving case summary information, GetCaseSummary() and caseSummary(). Moreover, the DefendantVerdict class is used to define a temporary judicial action or event outcome as an entity and confuses the case’s attributes, verdict flags, and text details. Additionally, the key entities in the system, such as Plaintiff, Defendant, Judge, Hearings, are stored as string or boolean data types, which hides their ownership and does not allow creating objects with high cohesion and scalability in court management domain.
+Problems and Limitations: The main problems with the current system design are the attribute redundancy, method duplication, inappropriate entity modeling, and lack of separation of concerns. The two classes, CriminalCases and DefendantVerdict, redundantly store CaseName as an attribute and have the same methods of retrieving case summary information, GetCaseSummary() and caseSummary(). Moreover, the DefendantVerdict class is used to define a temporary judicial action or event outcome as an entity and confuses the case’s attributes, verdict flags, and text details. Additionally, the key entities in the system, such as Plaintiff, Defendant, Judge, Hearings, are stored as string or boolean data types, which hides their ownership and does not allow creating objects with high cohesion and scalability in court management domain. Due to these problems and constraints metioned above, I planned to replace my child class but keep my parent class after realizing all the flaws in my system.
 
 ## Inhertinace Relationship
 
 Parent: CriminalCases
 
-Child: DefendantVerdict
+Child: AgainstPerson
 
-Explanation: CriminalCases is the broader scope of everything involving, as it suggests, A legal Criminal case. Meanwhile, DefendantVerdict focus on the scope of the Defendant duirng said CriminalCase. 
+Explanation: CriminalCases is a broader term, in which there are multiple types of it. One being Crimes against a person. To simplify, AgainstPerson is a type of CriminalCase that can be done.  
 
 ## Inheritance UML
 
