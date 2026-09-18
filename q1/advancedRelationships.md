@@ -11,7 +11,7 @@ Class 1: CriminalCases
 
 Class 2: DefendantVerdict 
 
-Problems and Limitations: The main problems with the current system design are the attribute redundancy, method duplication, inappropriate entity modeling, and lack of separation of concerns. The two classes, CriminalCases and DefendantVerdict, redundantly store CaseName as an attribute and have the same methods of retrieving case summary information, GetCaseSummary() and caseSummary(). Moreover, the DefendantVerdict class is used to define a temporary judicial action or event outcome as an entity and confuses the case’s attributes, verdict flags, and text details. Additionally, the key entities in the system, such as Plaintiff, Defendant, Judge, Hearings, are stored as string or boolean data types, which hides their ownership and does not allow creating objects with high cohesion and scalability in court management domain. Due to these problems and constraints metioned above, I planned to replace my child class but keep my parent class after realizing all the flaws in my system.
+Problems and Limitations: The main problems with the current system design are the attribute redundancy, method duplication, inappropriate entity modeling, and lack of separation of concerns. The two classes, CriminalCases and DefendantVerdict, inefficiently store CaseName as an attribute and have the same methods of retrieving case summary information, GetCaseSummary() and caseSummary(). Moreover, the DefendantVerdict class is used to define a temporary judicial action or event outcome as an entity and confuses the case’s attributes, verdict flags, and text details. And most importantly, a problem I should've noticed when reading the instructions that I cant use my class DefendantVerdict because I cant use a HAS-A(aka assosciation relationship) so I plan to change my child class to AgainstPerson. 
 
 ## Inhertinace Relationship
 
@@ -23,17 +23,19 @@ Explanation: CriminalCases is a broader term, in which there are multiple types 
 
 ## Inheritance UML
 
-![Inheritance](images/inheritanceDiagram.png)
+[Inheritance] 
+<img width="1414" height="2000" alt="inheritanceDiagram" src="https://github.com/user-attachments/assets/66e60857-dacc-4ffc-94d4-d7e990a04857" />
+
 
 ## Composition/Aggregation
 
-Relationship:
+Relationship: Composition
 
-Explanation:
+Explanation: CriminalCase has a strong composition (HAS-A) relationship with Evidence as an evidence record cannot exist on its own in the system.
 
 ## Advanced UML Diagram
 
-![Advanced UML](images/advancedClassDiagram.png)
+[Advanced UML] <img width="1414" height="2000" alt="AdvancedClassDiagram" src="https://github.com/user-attachments/assets/6ca14606-55c1-4def-a0d7-51d110230981" />
 
 ## Python Implementation
 
