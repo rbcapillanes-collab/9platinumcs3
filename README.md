@@ -24,3 +24,6 @@ VIEW
 ### OOP Act-PartIII
 [View my OOP Seed System - Part III](q1/classRelationships.md)
 
+### OOP Act-PartIV
+[View my OOP Seed System - Part IV](q1/advancedRelationships)
+
