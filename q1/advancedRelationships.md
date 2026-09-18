@@ -52,4 +52,23 @@ Explanation: CriminalCase has a strong composition (HAS-A) relationship with Evi
 ![Objects](images/advancedObjectDiagram.png)
 
 ## Reflection
-Answers:
+
+1. Why did you choose your inheritance relationship?
+2. 
+I chose to make AgainstPerson a subclass to CriminalCase since the former is a special case of the latter. In other words, there is a need to follow the IS-A rule for the inheritance relationship. In which the child class shares common criminal case features with a parent but also has its own specific aspects.
+
+3. How did inheritance reduce duplicate code?
+4. 
+Using the inheritance allowed me to avoid writing additional code because I could use the already existing class attributes and methods. For example, I did not need to write extra code for the case name, year, ID, or whether the case is closed because these parameters are available in the CriminalCase parent class. Therefore, it is possible to see how using the parent class reduced the number of cases to write.
+
+5. Why is your HAS-A relationship Composition or Aggregation?
+6. 
+My HAS-A relationship is better characterized by a composition because the evidence in a criminal case is meant to exist only when a specific case is open. Basically, the Evidence object is created when a CriminalCase is initialize. And when the latter gets deleted it will delete the Evidence instance too because it does not have an independent existence.
+
+7. What is the difference between Association and the advanced relationship implemented?
+8. 
+The association relationship type is more of a casual connection where two objects are using each other’s features but are not codependent on each other to exist. For example, the Judge class is associated with CriminalCase because the former uses the latter to hear a witness but does not depend on it. The implemented advanced relationship is different because it implies that one object (CriminalCase) owns another (Evidence) and controls its lifecycle.
+
+9. How does your design follow the DRY principle?
+10. 
+The design follows the Don’t Repeat Yourself, or DRY, principle because there is a single source of truth for everything involved. For example, it was enough to write the CriminalCase class with common attributes and methods, and it was possible to use its parts in the child class without repeating the code. Another example is that I used the parent class’s GetCaseSummary method instead of repeating the code for writing a string.
