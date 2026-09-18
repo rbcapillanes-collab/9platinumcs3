@@ -24,7 +24,8 @@ Explanation: CriminalCases is a broader term, in which there are multiple types 
 ## Inheritance UML
 
 ![Inheritance](images/inheritanceDiagram.png)
-<img width="1414" height="2000" alt="InheritanceDiagram (1)" src="https://github.com/user-attachments/assets/be03eaf6-2dcd-4649-9afa-0a51618797bc" />
+<img width="1414" height="2000" alt="InheritanceDiagram" src="https://github.com/user-attachments/assets/15534632-3a1a-4db4-8bc9-60d13fee3ab4" />
+
 
 ## Composition/Aggregation
 
@@ -34,7 +35,8 @@ Explanation: CriminalCase has a strong composition (HAS-A) relationship with Evi
 
 ## Advanced UML Diagram
 
-![Advanced UML](images/advancedClassDiagram.png) <img width="1414" height="2000" alt="AdvancedClassDiagram" src="https://github.com/user-attachments/assets/6ca14606-55c1-4def-a0d7-51d110230981" />
+![Advanced UML](images/advancedClassDiagram.png) <img width="1414" height="2000" alt="advancedClassDiagram" src="https://github.com/user-attachments/assets/fd4fdc5c-021c-410a-90a6-64303eb2d5bf" />
+
 
 ## Python Implementation
 
