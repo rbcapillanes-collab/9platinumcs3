@@ -24,8 +24,7 @@ Explanation: CriminalCases is a broader term, in which there are multiple types 
 ## Inheritance UML
 
 [Inheritance] 
-<img width="1414" height="2000" alt="inheritanceDiagram" src="https://github.com/user-attachments/assets/66e60857-dacc-4ffc-94d4-d7e990a04857" />
-
+<img width="1414" height="2000" alt="InheritanceDiagram (1)" src="https://github.com/user-attachments/assets/be03eaf6-2dcd-4649-9afa-0a51618797bc" />
 
 ## Composition/Aggregation
 
