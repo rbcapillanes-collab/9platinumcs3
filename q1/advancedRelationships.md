@@ -42,7 +42,8 @@ Explanation: CriminalCase has a strong composition (HAS-A) relationship with Evi
 
 ## Test Run
 
-![Test](images/advancedTestRun.png)
+[Test]<img width="1652" height="350" alt="igiveup" src="https://github.com/user-attachments/assets/575cc10a-e6ae-4121-864a-17c704c8e3c5" />
+
 
 ## Object Diagram
 
