@@ -27,3 +27,7 @@ VIEW
 ### OOP Act-PartIV
 [View my OOP Seed System - Part IV](q1/advancedRelationships.md)
 
+# Quarter 2 
+## Activities 
+### Encapsulation 
+[sg8_encapsulation.py](q2/sg_encapsulation.py)
