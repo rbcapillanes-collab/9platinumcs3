@@ -3,7 +3,7 @@ class Publication: # makes the Publication class
         self.__title = title
         self.__author = author
         
-    def get_title(self): # crceates the method, get_title, which will get the title name when called 
+    def get_title(self): # creates the method, get_title, which will get the title name when called 
         return self.__title
     def set_title(self, title:str): # creates the method, set_title, which will change the title if used 
         self.__title = title
