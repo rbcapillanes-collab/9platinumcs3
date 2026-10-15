@@ -45,7 +45,7 @@ pub1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Don
 
 book1 = Book(310)
 book1.set_title("The Hobbit")
-book1.set_author("J.R.R. Tolkien")\
+book1.set_author("J.R.R. Tolkien")
     
 mag1 = Magazine(202)
 mag1.set_title("National Geographic")
