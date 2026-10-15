@@ -31,3 +31,4 @@ VIEW
 ## Activities 
 ### Encapsulation 
 [sg8_encapsulation.py](q2/sg8_encapsulation.py)
+[FA1_Inheritance.py] (q2/sg8_inheritance.py)
