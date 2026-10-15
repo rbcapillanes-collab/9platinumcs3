@@ -52,13 +52,13 @@ mag1.set_title("National Geographic")
 mag1.set_author("Various Authors")
 
 print("Publication Information: ") #shows the information of the title and author of the superclass, Publication since it is called in the following line. 
-pub1.display_info()
+pub1.display_info() #title would be Journal of Experimenatl Psychology, and its authors would be Ratchiff, R. & Van Dongen, H. 
 
-print("\nBook Information: ") # uses \n so that it can automatically have a space before it and sets the number of book pages in the class Book to -310 which it wont accept and show the error/warning message instead of setting the new page number of the negative quantity
+print("\nBook Information: ") # uses \n so that it can automatically have a space before it and sets the number of book pages in the class Book to -310 which it wont accept and show the error/warning message instead of setting the new page number of the negative quantity. Also displays info of the author anad title of the book
 book1.set_number_of_pages(-310)
 book1.display_info()
-print(f"Number of Pages: {book1.get_number_of_pages()}")
+print(f"Number of Pages: {book1.get_number_of_pages()}") #title would be The Hobbit, author being J.R.R Tolkien and number of pages would be 310. 
 
-print("\nMagazine Information: ")
+print("\nMagazine Information: ") # uses \m so that it can automatically have a space. Also shows the display info being the title and name of the authors and also shows the issue number of the magazine which would be 202. 
 mag1.display_info()
-print(f"Issue Number: {mag1.get_issue_number()}")
+print(f"Issue Number: {mag1.get_issue_number()}") #TItle would be National Geography, authors woudl be Various Authors and issue number is 202
