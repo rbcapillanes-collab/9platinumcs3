@@ -61,4 +61,4 @@ print(f"Number of Pages: {book1.get_number_of_pages()}") #title would be The Hob
 
 print("\nMagazine Information: ") # uses \m so that it can automatically have a space. Also shows the display info being the title and name of the authors and also shows the issue number of the magazine which would be 202. 
 mag1.display_info()
-print(f"Issue Number: {mag1.get_issue_number()}") #TItle would be National Geography, authors woudl be Various Authors and issue number is 202
+print(f"Issue Number: {mag1.get_issue_number()}") #Title would be National Geography, authors woudl be Various Authors and issue number is 202
