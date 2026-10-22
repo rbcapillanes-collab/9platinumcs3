@@ -33,3 +33,5 @@ VIEW
 [sg8_encapsulation.py](q2/sg8_encapsulation.py)
 
 [SG9 Inheritance.py](q2/sg9_Inheritance.py)
+
+[SG10_MethodOverriding.py](q2/sg10_MethodOverriding.py)
