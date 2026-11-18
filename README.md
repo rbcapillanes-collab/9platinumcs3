@@ -35,3 +35,7 @@ VIEW
 [SG9 Inheritance.py](q2/sg9_Inheritance.py)
 
 [SG10_MethodOverriding.py](q2/sg10_MethodOverriding.py)
+
+[SG11 Polymorphism Activity 1](q2/sg11_Polymorphism_Activity1.py)
+
+[SG11 Polymorphism Activity 2](q2/sg11_Polymorphism_Activity2.md)
