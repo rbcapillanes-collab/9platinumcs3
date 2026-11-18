@@ -30,8 +30,9 @@ c. Creates one object of each class.
 d. Calls the start_trip() method for each object.
 
 
-CODE: 
- 
+CODE: .[SG11 Polymorphism: Duck Typing Code](q2/sg11_Polymorphism_Activity2.py)
+
+
 3. How does the code in 2.2 demonstrate polymorphism?
 
    It demostrates polyphormism because there are multiple vechiles that take different forms like a car, boat, and drone.
