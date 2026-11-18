@@ -13,13 +13,11 @@ b. What did the Car class need to have so it could work inside the same loop as 
    It needed the same method as them, which was the method of speaking. Since before that, it had the method horn. Meanwhile, the rest of the objects (the actual animals) had speak methods. 
 
 
-2. Create the Python code that: 
+2. Create the Python code that:
+
 a. Creates three classes: Car, Boat, and Drone with a method move().
-
 move() in the Car class prints "The car drives on the road."
-
 move() in the Boat class prints "The boat sails on water."
-
 move() in the Drone class prints "The drone flies in the sky."
 
 
